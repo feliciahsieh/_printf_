@@ -1,0 +1,47 @@
+.TH _PRINTF "19 June 2017" "01" "User Commands"
+.SH NAME
+.B _printf
+- format and print data
+.SH SYNOPSIS
+.B printf
+.I FORMAT
+.I [ARGUMENT]
+.B ...
+.PP
+.SH DESCRIPTION
+Print ARGUMENTs) as specified by FORMAT
+.PP
+FORMAT dictates the output as in printf.  The interpreted sequence is:
+.PP
+%%     prints a single %
+.PP
+The conversion specifiers are:
+.PP
+c      prints a character
+.PP
+s      prints a string
+.PP
+d      prints an integer
+.PP
+i      prints an integer
+.PP
+b      prints a binary number
+.PP
+u      prints an unsigned int
+.PP
+o      prints an octal number
+.PP
+x      prints a hexadecimal number (lowercase letters)
+.PP
+X      prints a hexadecimal number (uppercase letters)
+.PP
+r      prints the reversed string
+.PP
+R      prints the rot13 encrypted string
+.PP
+.SH AUTHOR
+Written by John Cottrell and Felicia Hsieh
+.SH REPORTING BUGS
+Report _printf() bugs to 155@holbertonschool.com
+.SH SEE ALSO
+printf(3)
